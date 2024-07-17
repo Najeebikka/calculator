@@ -1,5 +1,5 @@
 *{
-    background-color: black;
+    background-color: rgb(254, 254, 254);
     margin: 0;
 }
 #container {
@@ -12,7 +12,7 @@
 }
 #display{
     background-color: rgb(26, 27, 27);
-    width: 201px;
+    width: 199px;
     height: 65px;
     color: white;
     text-align: right;
@@ -51,7 +51,6 @@
     border-right: 2px solid grey;
     border-bottom: 2px solid grey;
     margin: .5px;
-    margin-top: 0;
 }
 .eq,
 .yellow{
@@ -62,7 +61,6 @@
 	font-weight: bold;
     color: whitesmoke;
     margin: .5px;
-    margin-top: 0;
     border-top: 1px solid orange;
     border-left: 2px solid orange;
     border-right: 2px solid orange;
@@ -82,7 +80,6 @@
     background-color: rgb(67, 66, 66);
     font-size: 15px;
     margin: .5px;
-    margin-top: 0;
 	font-weight: bold;
     color: whitesmoke;
     border-top: 1px solid rgb(67, 66, 66);
@@ -100,7 +97,6 @@
 .zero{
     width: 152px;
     margin: .5px;
-    margin-top: 0;
     border-bottom-left-radius: 10px;
 }
 .last{
@@ -108,4 +104,5 @@
 }
 .eq{
     border-bottom-right-radius: 10px;
+    margin-top: .5px;
 }
